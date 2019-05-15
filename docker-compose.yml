@@ -15,6 +15,7 @@ services:
       - DRONE_SERVER_HOST=drone.ci.local
       - DRONE_SERVER_PROTO=http
       - DRONE_TLS_AUTOCERT=true
+      - DRONE_LOGS_DEBUG=true
     ports:
       - 80:80
       - 443:443
